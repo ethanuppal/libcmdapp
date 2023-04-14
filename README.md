@@ -25,7 +25,7 @@ mode | behavior
 
 If you do not set these as options, libcmdarg will use various information to automatically generate responses in such a way that `help2man` will work.
 
-**5. Proceeding AND procedural parsing**
+**5. Subsequent AND procedural parsing**
 
 Not only does `cmdapp_run` terminate with all options and arguments in the proper state, it also calls optional functions *as it parses*. This allows for repeated options and usage of args sensitive to positioning of options.
 
